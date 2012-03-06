@@ -11,8 +11,8 @@ Details can be found in the file LICENSE.
 
 ## Getting Started
 
-In order to the examples, you'll need a Splunk Storm account.  If you don't
-aready have one, you can get one from http://www.splunkstorm.com
+In oder for the examples to work, you'll need a Splunk Storm account.
+If you don't aready have one, you can get one from http://www.splunkstorm.com
 
 ## Overview
 
