@@ -39,7 +39,7 @@ event_params = {:sourcetype => 'syslog', :host => 'gba.example.com'}
 
 
 # Nothing to change below
-API_HOST = 'api.staging.splunkstorm.com'
+API_HOST = 'api.splunkstorm.com'
 API_VERSION = 1
 API_ENDPOINT = 'inputs/http'
 URL_SCHEME = 'https'
