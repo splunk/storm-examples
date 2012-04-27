@@ -24,7 +24,7 @@ for each new endpoint we release.
 
 ## Resources
 
-You can find anything having to do with Splunk Stomrm here: 
+You can find anything having to do with Splunk Storm here:
 
 *   http://splunkstorm.com/
 
