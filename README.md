@@ -46,3 +46,6 @@ this README for more updates soon.
 
 * Issues should be filed here: http://help.splunkstorm.com/
 
+# Version
+
+Storm Input API Examples 2.0.0
