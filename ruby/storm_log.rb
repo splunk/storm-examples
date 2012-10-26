@@ -52,7 +52,7 @@ api_params = URI.escape(event_params.collect{|k,v| "#{k}=#{v}"}.join('&'))
 endpoint_path = "#{API_VERSION}/#{API_ENDPOINT}?#{api_params}"
 
 request = RestClient::Resource.new(
-  api_url, :user => ACCESS_TOKEN, :password => 'x')
+  api_url, :user => 'x', :password => ACCESS_TOKEN)
 
 response = request[endpoint_path].post(ARGF.read)
 puts response
