@@ -19,7 +19,7 @@ class StormLog(object):
         self.access_token = access_token
 
         self.pass_manager = urllib2.HTTPPasswordMgrWithDefaultRealm()
-        self.pass_manager.add_password(None, self.url, access_token, '')
+        self.pass_manager.add_password(None, self.url, 'x', access_token)
         self.auth_handler = urllib2.HTTPBasicAuthHandler(self.pass_manager)
         self.opener = urllib2.build_opener(self.auth_handler)
         urllib2.install_opener(self.opener)
